@@ -1,0 +1,212 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SaoriTester.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SaoriTester.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SAORITESTER_DIALOG DIALOGEX 0, 0, 479, 325
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "SaoriTester : Developers' SAORI Testing Platform / 1.1.0"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "Argument",IDC_STATIC,2,3,322,175
+    LTEXT           "0",IDC_STATIC,9,16,8,8
+    LTEXT           "1",IDC_STATIC,9,32,8,8
+    LTEXT           "2",IDC_STATIC,9,48,8,8
+    LTEXT           "3",IDC_STATIC,9,64,8,8
+    LTEXT           "4",IDC_STATIC,9,80,8,9
+    LTEXT           "5",IDC_STATIC,9,97,8,8
+    LTEXT           "6",IDC_STATIC,9,113,8,8
+    LTEXT           "7",IDC_STATIC,9,129,8,8
+    EDITTEXT        IDC_ARG1,17,14,301,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ARG2,17,30,301,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ARG3,17,46,301,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ARG4,17,62,301,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ARG5,17,78,301,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ARG6,17,94,301,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ARG7,17,110,301,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ARG8,17,126,301,14,ES_AUTOHSCROLL
+    LTEXT           "SAORI Universalをドラッグ＆ドロップ",IDC_STATIC,333,7,
+                    143,10
+    PUSHBUTTON      "EXECUTE",IDC_EXECUTE,333,157,143,20
+    EDITTEXT        IDC_PATH,333,20,143,108,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER
+    GROUPBOX        "呼び出し結果",IDC_STATIC,2,182,474,139
+    LTEXT           "Request",IDC_STATIC,7,193,40,8
+    LTEXT           "Response",IDC_STATIC,160,193,51,8
+    EDITTEXT        IDC_REQUEST,7,203,151,113,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    EDITTEXT        IDC_RESPONSE,160,203,151,113,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "解放",IDC_UNLOAD,382,137,43,14
+    PUSHBUTTON      "再読込",IDC_RELOAD,433,137,43,14
+    PUSHBUTTON      "履歴",IDC_HISTORY,332,137,43,14
+    EDITTEXT        IDC_SSTP,320,203,151,113,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "SSTP",IDC_STATIC,319,193,17,8
+    EDITTEXT        IDC_ARG9,17,142,301,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ARG10,17,158,301,14,ES_AUTOHSCROLL
+    LTEXT           "8",IDC_STATIC,9,145,8,8
+    LTEXT           "9",IDC_STATIC,9,161,8,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SaoriTester MFC ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SaoriTester\0"
+            VALUE "LegalCopyright", "Copyright (C) 2009\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SaoriTester.EXE\0"
+            VALUE "ProductName", "SaoriTester ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SAORITESTER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 476
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 322
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif //_WIN32
+#include "res\SaoriTester.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "l.jpn\afxres.rc"          // 標準のコンポーネント
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

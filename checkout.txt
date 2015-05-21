@@ -1,0 +1,1 @@
+svn checkout http://csaori.googlecode.com/svn/trunk/ csaori-read-only
